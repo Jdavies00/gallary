@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Hello!</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
+    <title>Image gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <h1>Image gallery example</h1>
+
+    <div class="full-img">
+      <img class="displayed-img" src="https://cdn.glitch.com/9d586b50-22d7-4dcf-a5a9-6127acd909c0%2Fpic1.jpg?v=1571602267425">
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
+    </div>
+
+    <div class="thumb-bar">
+
+
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
