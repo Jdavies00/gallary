@@ -11,3 +11,4 @@ newImage.setAttribute('src', xxx);
 thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
+
