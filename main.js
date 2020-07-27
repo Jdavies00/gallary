@@ -7,7 +7,7 @@ var overlay = document.querySelector('.overlay');
 /* Looping through images */
 for(let i= 1; i <=5; i++){
   const newImage = document.createElement('img');
-  newImage.setAttribute('src', 'https://cdn.glitch.com/9d586b50-22d7-4dcf-a5a9-6127acd909c0%2Fpic1.jpg' + i + '.jpg');  
+  newImage.setAttribute('src', 'assets/pic' + i + '.jpg');  
   thumbBar.appendChild(newImage);
   // newImage.onclick = funtion(e){
     
