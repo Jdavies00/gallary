@@ -6,9 +6,13 @@ var overlay = document.querySelector('.overlay');
 
 /* Looping through images */
 for(let i= 1; i <=5; i++){
-var newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);  
-thumbBar.appendChild(newImage);  
+  const newImage = document.createElement('img');
+  newImage.setAttribute('src', 'image/pic' + i + '.jpg');  
+  thumbBar.appendChild(newImage);
+  // newImage.onclick = funtion(e){
+    
+  // }
+
 }
 
 
